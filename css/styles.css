@@ -1,10 +1,17 @@
 body {
-  background-color: #f8e2cf;
+  background-color: #f2ffe9;
 }
 hr.dots {
   border-style: none;
   border-top: dotted;
-  border-color: #fdf6f0;
+  border-color: #a6cf98;
   border-width: 5px;
   width: 5%;
+}
+
+h1 {
+  color: #10cca4;
+}
+h3 {
+  color: #10cca4;
 }
