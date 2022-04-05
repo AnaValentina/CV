@@ -1,0 +1,36 @@
+
+.dots {
+  border-style: none;
+  border-top: dotted;
+  border-color: #f8c444;
+  border-width: 5px;
+  width: 5%;
+}
+
+.description {
+  color: #f8c444;
+  font-family: monospace; 
+}
+.title {
+  background-color: #395c93;
+  margin-top: 0px;
+  padding: 20px;
+  border: 10px;
+}
+.body {
+  margin: 0px;
+}
+.top-container{
+  background-color: #FEF5ED ;
+}
+.bottom-container{
+  background-color: #10cca4;
+}
+.arbol{
+width: 1200px;
+height: 600px;
+
+}
+.body{
+  background-color: #829ebc;
+}
