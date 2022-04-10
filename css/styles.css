@@ -19,6 +19,9 @@ body {
   border-width: 5px;
   width: 5%;
 }
+hr {
+  border-color: #f8c444;
+}
 .title {
   background-color: #395c93;
   margin-top: 0px;
@@ -29,14 +32,10 @@ body {
 .profil {
   font-family: 'Roboto Mono', monospace;
   color: #f8c444;
+  text-align: center;
 }
 .top-container{
   background-color: #829ebc ;
-}
-.bottom-container{
-  background-color: #395c93;
-  width: 100%;
-  height: auto;
 }
 h3 {
   font-family: 'Roboto Mono', monospace;
@@ -46,4 +45,16 @@ h3 {
 p {
   font-family: 'Roboto Mono', monospace;
   margin-left: 6%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.footer{
+  background-color: #395c93;
+  padding-bottom: 2%;
 }
