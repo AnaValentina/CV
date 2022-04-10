@@ -53,8 +53,21 @@ p {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
 }
 .footer{
   background-color: #395c93;
   padding-bottom: 2%;
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffb700;
+  background-color: transparent;
+  text-decoration: underline;
 }
