@@ -49,17 +49,19 @@ p {
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 30px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+  color: black;
+  background-color: transparent;
+  margin: 10px 20px 10px 50px ;
 }
 .footer{
   background-color: #395c93;
   padding-bottom: 2%;
 }
-a:link {
-  color: black;
+.color-a {
+  color: #006400;
   background-color: transparent;
   text-decoration: none;
 }
@@ -67,4 +69,23 @@ a:hover {
   color: #ffb700;
   background-color: transparent;
   text-decoration: underline;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+.bg-navbar {
+  background-color: #395c93;
+  
+}
+.nav-linke {
+  color: #EAF6F6;
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
+  margin: 45px;
+}
+.nav-linke:hover {
+  color:#ffb700 ;
+  background-color: transparent;
+  text-decoration: none;
 }
