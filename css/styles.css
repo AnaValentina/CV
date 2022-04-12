@@ -28,7 +28,7 @@ hr {
   padding: 20px;
   border: 10px;
   text-align: center;
-  height: 1500px;
+  height: 900px;
 }
 .profil {
   font-family: 'Roboto Mono', monospace;
@@ -128,11 +128,5 @@ line-height: 2em;
   display: inline-block;
   padding: 0 1.5rem;
 }
-/*Class to apply on scroll with JS */
-.fixed{
-  position: fixed;
-  width: 100%;
-  top: 0%;
-  z-index: 20;
-}
+
 
