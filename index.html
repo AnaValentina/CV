@@ -15,32 +15,31 @@
 
 </head>
 <body>
-    
-    <nav class="navbar navbar-expand-lg bg-navbar">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="nav justify-content-center ">
-                <li class="nav-item">
-                  <a class="nav-linke"  href="#">Software Testing</a>
-                </li>
-                  <li class="nav-item">
-                    <a class="nav-linke" href="#">Entwicklung</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-linke" href="#">Video Spielen</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-linke" href="#">Atlassian</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-linke" href="#">MS Office</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-linke" href="#">Kontaktiere mich</a>
-                  </li>
-          </div>
-        </ul>
-    </nav>
-    
+        <nav class="navbar navbar-expand-lg bg-navbar px-3">
+            <div class="navbar-container">
+                <ul>
+                    <li class="nav-item">
+                        <a class="nav-linke"  href="#SoftwareTesting">Software Testing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-linke" href="#Entwicklung">Entwicklung</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-linke" href="#Video Spielen">Video Spielen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-linke" href="#Atlassian">Atlassian</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-linke" href="#MS Office">MS Office</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-linke" href="#contact me">Kontaktiere mich</a>
+                    </li>
+                </ul> 
+            </div>
+       </nav>  
+  
     <div class="title">
         <img class="responsivename" src="images/name.png" alt="ich bin anais casanova" class="imgname"><br>
         <img class="responsivebanner" src="images/twtbanner.png" alt="Banner-Anais">
@@ -51,8 +50,8 @@
                         die Stärkung meiner Fähigkeiten und die Übernahme von Verantwortung</h2>
     </div>
    
-    <div class="top-container">
-        <div class="">
+    <div class="top-container" data-bs-spy="scroll" data-bs-target="#menu" data-bs-offset="0" tabindex="0">
+        <div id="SoftwareTesting">
                 <h3>Software Testing</h3>
                     <h4>Robot Framework</h4>
                     <p>Erstellen und Ausführen von Selenium-Testautomatisierungsskripten <br>
@@ -73,7 +72,7 @@
                         Kopieren von Dateien zwischen Linux-Systemen mit SCP, Kopieren von Dateien von <br>
                         Windows nach Linux mit SCP</p>
         </div>
-        <div> 
+        <div id="Entwicklung"> 
                 <h3>Entwicklung</h3>
                 <h4>Android Studio</h4>
                 <p>Android 8.0 Oreo <br>
@@ -89,7 +88,7 @@
                         Express.js, APIs, EJS, SQL, DApps auf ICP mit React
                     </p>
         </div> 
-        <div>
+        <div id="Video Spielen">
                 <h3>Video Spielen</h3>
                 <h4>Games</h4>
                 <p><a class="color-a" href="https://razveck.itch.io/steamfiend" target="_blank"><strong> SteamFiend</strong></a> <br> C# Programmierer, 2D Assets Designer</p>
@@ -114,7 +113,7 @@
                         Zeichnen und Entwerfen von Charakteren für Animation, Cartoons und Videospiele
                     </p>
         </div>
-        <div>
+        <div id="Atlassian">
                 <h3>Atlassian</h3>
                     <p>Jira</p>
                     <p>Confluence</p>
@@ -125,7 +124,7 @@
                         Vergleich zwischen erwartetem und tatsächlichem Ergebnis
                     </p>
         </div>
-        <div>
+        <div id="MS Office">
                 <h3>MS Office</h3>
                     <p>Word</p>
                     <p>Excel</p>
@@ -135,7 +134,7 @@
         </div>
     
        
-        <div class="contact-me">
+        <div id="contact me">
             <h3>Kontaktiere mich</h3>
             <p><strong>E-mail:</strong><a class="color-a" href="mailto: anais.casanova.work@gmail.com" target="_blank">anais.casanova.work@gmail.com</a></p>
             <p><strong>Telefonnummern:</strong>+49 015730849403</p>
@@ -147,5 +146,6 @@
             <p class="copyright">© 2022 Anais Casanova</p>
             
         </div>
+        <script src="js/scripts.js"></script>
 </body>
 </html>
