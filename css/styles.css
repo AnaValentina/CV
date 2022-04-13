@@ -1,7 +1,16 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-size: 16px;
+}
 body {
-  margin: 0px;
+  font-family: 'Roboto Mono', monospace;
   background-color: #829ebc
 }
+
 .responsivebanner{
   width: 65%;
   height: auto;
@@ -18,9 +27,6 @@ body {
   border-color: #f8c444;
   border-width: 5px;
   width: 5%;
-}
-hr {
-  border-color: #f8c444;
 }
 .title {
   background-color: #395c93;
@@ -39,11 +45,6 @@ hr {
 .top-container{
   background-color: #829ebc ;
   padding-top: 3%;
-}
-h3 {
-  font-family: 'Roboto Mono', monospace;
-  color: #ffb700;
-  margin-left: 3%;
 }
 h4 {
   font-family: 'Roboto Mono', monospace;
@@ -129,5 +130,24 @@ line-height: 2em;
   display: inline-block;
   padding: 0 1.5rem;
 }
+/*Hide/Show section*/
+details{
+  padding: 0 3rem;
+}
+details > summary {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+   color: #ffb700;
+   list-style: none;
+   font-size: 2rem;
+}
+details > summary::after{
+  content: "\2304";
+  display: inline-flex;
 
-
+  transition: transform 0.3s ease;
+}
+details[open] > summary::after{
+  transform: rotate(180deg);
+}
