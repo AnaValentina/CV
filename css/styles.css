@@ -1,7 +1,5 @@
 *{
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 html{
   font-size: 16px;
@@ -49,10 +47,12 @@ body {
 h4 {
   font-family: 'Roboto Mono', monospace;
   margin-left: 6%;
+
 }
 p {
   font-family: 'Roboto Mono', monospace;
   margin-left: 9%;
+  text-align: justify;
 }
 .fa {
   padding: 20px;
@@ -148,6 +148,28 @@ details > summary::after{
 
   transition: transform 0.3s ease;
 }
-details[open] > summary::after{
-  transform: rotate(180deg);
+
+
+/*Style Image gallery*/
+div.gallery {
+  border: 1px solid #ccc;
+  width: 600px;
 }
+
+div.gallery:hover {
+  border: 1px solid #777;
+  
+}
+
+
+.col-6{
+  width: 600px;
+  height: 300px;
+  margin-left: 30%;
+  float: left;
+}
+.col-12{
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
